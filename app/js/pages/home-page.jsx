@@ -3,6 +3,7 @@ var React = require('react');
 var Title = require('../components/title.jsx');
 var Description = require('../components/description.jsx');
 var ContactUs = require('../components/contact-us.jsx');
+var Media = require('../components/media.jsx');
 
 module.exports = React.createClass({
     render: function(){
@@ -15,6 +16,12 @@ module.exports = React.createClass({
                 <br />
                 <br />
                 <ContactUs />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <Media />
             </div>
         </div>
     },
